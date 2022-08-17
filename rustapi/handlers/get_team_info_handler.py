@@ -7,5 +7,5 @@ class GetTeamInfoHandler(RequestHandler):
 
     def handle(self, app_request: AppRequest) -> AppResponse:
         response = AppResponse()
-        response.info.CopyFrom(TeamManager.get_team_info())
+        response.teamInfo.CopyFrom(TeamManager.get_team_info())
         return response

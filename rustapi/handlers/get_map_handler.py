@@ -22,8 +22,7 @@ class GetMapHandler(RequestHandler):
                 monument.y = mon["y"]
                 self.monuments.append(monument)
 
-    def handle(self, app_request: AppRequest) -> AppResponse:
-        response = AppResponse()
+        self.response = AppResponse()
         map_data = AppMap()
 
         map_data.width = 4000
@@ -33,5 +32,8 @@ class GetMapHandler(RequestHandler):
         map_data.monuments.extend(self.monuments)
         map_data.background = "#12404D"
 
-        response.map.CopyFrom(map_data)
-        return response
+        self.response.map.CopyFrom(map_data)
+
+    def handle(self, app_request: AppRequest) -> AppResponse:
+
+        return self.response
