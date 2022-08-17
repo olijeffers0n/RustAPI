@@ -2,7 +2,9 @@ import logging
 import base64
 from websocket_server import WebsocketServer
 from .rustplus_proto import AppMessage, AppRequest, AppResponse, AppError
-from .handlers import RequestHandler, GetInfoHandler, GetTimeHandler, GetMapHandler
+from .handlers import RequestHandler, GetInfoHandler, GetTimeHandler, GetMapHandler, SendMessageHandler, \
+    GetTeamChatHandler
+from .events import EventBroadcaster, RustEventLoop
 
 
 class RustAPIWebsocketServer:
@@ -14,8 +16,8 @@ class RustAPIWebsocketServer:
             "getTime": GetTimeHandler(),
             "getMap": GetMapHandler(),
             "getTeamInfo": None,
-            "getTeamChat": None,
-            "sendTeamMessage": None,
+            "getTeamChat": GetTeamChatHandler(),
+            "sendTeamMessage": SendMessageHandler(),
             "getEntityInfo": None,
             "setEntityValue": None,
             "getMapMarkers": None,
@@ -38,7 +40,7 @@ class RustAPIWebsocketServer:
             response = handler.handle(request)
 
         except Exception as e:
-            print(e)
+            print("An Error has occurred: " + str(e))
             response = AppResponse()
             error = AppError()
             error.error = str(e)
@@ -52,4 +54,6 @@ class RustAPIWebsocketServer:
     def start(self):
         self.server = WebsocketServer(port=4565, loglevel=logging.INFO)
         self.server.set_fn_message_received(self.on_message_received)
+        EventBroadcaster.set_instance(self.server)
+        RustEventLoop().start()
         self.server.run_forever()
