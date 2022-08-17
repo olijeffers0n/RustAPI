@@ -7,13 +7,13 @@ from .handler import RequestHandler
 class GetMapHandler(RequestHandler):
 
     def __init__(self):
-        with open("./rustapi/handlers/map.png", "rb") as image:
+        with open("./rustapi/data/map.png", "rb") as image:
             f = image.read()
             self.map = bytes(bytearray(f))
 
         self.monuments = []
 
-        with open("./rustapi/handlers/monuments.json", "r") as monuments:
+        with open("./rustapi/data/monuments.json", "r") as monuments:
             mons = json.load(monuments)
             for mon in mons:
                 monument = AppMap.Monument()
