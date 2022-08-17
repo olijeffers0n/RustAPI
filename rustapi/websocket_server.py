@@ -1,7 +1,8 @@
 import logging
-from wsocket import WSocketApp, run
+import base64
+from websocket_server import WebsocketServer
 from .rustplus_proto import AppMessage, AppRequest, AppResponse, AppError
-from .handlers import RequestHandler, GetInfoHandler
+from .handlers import RequestHandler, GetInfoHandler, GetTimeHandler, GetMapHandler
 
 
 class RustAPIWebsocketServer:
@@ -10,8 +11,8 @@ class RustAPIWebsocketServer:
         self.server = None
         self.fields = {
             "getInfo": GetInfoHandler(),
-            "getTime": None,
-            "getMap": None,
+            "getTime": GetTimeHandler(),
+            "getMap": GetMapHandler(),
             "getTeamInfo": None,
             "getTeamChat": None,
             "sendTeamMessage": None,
@@ -28,14 +29,16 @@ class RustAPIWebsocketServer:
 
         raise Exception("Handler not found")
 
-    def on_message_received(self, message, client):
+    def on_message_received(self, client, server, message):
+        message = base64.b64decode(message)
         try:
             request = AppRequest()
             request.ParseFromString(message)
-            handler = self.convert_message_to_handler(message)
+            handler = self.convert_message_to_handler(request)
             response = handler.handle(request)
 
         except Exception as e:
+            print(e)
             response = AppResponse()
             error = AppError()
             error.error = str(e)
@@ -44,9 +47,9 @@ class RustAPIWebsocketServer:
         response.seq = 1
         message = AppMessage()
         message.response.CopyFrom(response)
-        return message.SerializeToString()
+        server.send_message(client, base64.b64encode(message.SerializeToString()))
 
     def start(self):
-        self.server = WSocketApp()
-        self.server.onmessage += self.on_message_received
-        run(app=self.server, port=4565)
+        self.server = WebsocketServer(port=4565, loglevel=logging.INFO)
+        self.server.set_fn_message_received(self.on_message_received)
+        self.server.run_forever()

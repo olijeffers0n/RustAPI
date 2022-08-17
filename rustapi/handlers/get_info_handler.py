@@ -14,12 +14,12 @@ class GetInfoHandler(RequestHandler):
         info.headerImage = "http://test.com/"
         info.url = "http://test.com/"
         info.map = "4000 Size Procedural Map"
-        info.mapSize = 4000
-        info.wipeTime = time.time() - 60*60*24*5
+        info.mapSize = 6000
+        info.wipeTime = int(time.time() - 60*60*24*5)
         info.players = random.randint(0, 200)
         info.maxPlayers = 200
         info.queuedPlayers = 0
-        info.seed = 1875594817
+        info.seed = 54321
         info.salt = 0
         info.logoImage = "http://test.com/"
 
