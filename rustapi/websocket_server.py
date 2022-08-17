@@ -3,7 +3,7 @@ import base64
 from websocket_server import WebsocketServer
 from .rustplus_proto import AppMessage, AppRequest, AppResponse, AppError
 from .handlers import RequestHandler, GetInfoHandler, GetTimeHandler, GetMapHandler, SendMessageHandler, \
-    GetTeamChatHandler
+    GetTeamChatHandler, GetTeamInfoHandler
 from .events import EventBroadcaster, RustEventLoop
 
 
@@ -15,7 +15,7 @@ class RustAPIWebsocketServer:
             "getInfo": GetInfoHandler(),
             "getTime": GetTimeHandler(),
             "getMap": GetMapHandler(),
-            "getTeamInfo": None,
+            "getTeamInfo": GetTeamInfoHandler(),
             "getTeamChat": GetTeamChatHandler(),
             "sendTeamMessage": SendMessageHandler(),
             "getEntityInfo": None,
