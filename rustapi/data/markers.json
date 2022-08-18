@@ -1,0 +1,1462 @@
+{
+    "crates": [
+        {
+            "x": 1653.42041015625,
+            "y": 6333.6357421875
+        },
+        {
+            "x": 6288.07080078125,
+            "y": 188.023681640625
+        }
+    ],
+    "launchsite": {
+        "x": 4027.79833984375,
+        "y": 1171.7412109375
+    },
+    "vending_machines": [
+        {
+            "name": "Stables Shopkeeper",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1997543660,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 100,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 60528587,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1989785143,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 3706.05810546875,
+            "y": 2545.111328125
+        },
+        {
+            "name": "Stables Shopkeeper",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1997543660,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 100,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 60528587,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1989785143,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 4267.55078125,
+            "y": 5493.22412109375
+        },
+        {
+            "name": "Extra 1",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 443432036,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1166712463,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 200,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1284169891,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -265292885,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 150,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -365097295,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -784870360,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 5,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1263920163,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 4939.255859375,
+            "y": 4197.8759765625
+        },
+        {
+            "name": "Tools & Stuff",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1302129395,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1252059217,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 125,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1104520648,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -566907190,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 100,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -484206264,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 150,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1488979457,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 596469572,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 4961.0419921875,
+            "y": 4227.1171875
+        },
+        {
+            "name": "Resource Exchange",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 11,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -2099697608,
+                    "item_is_blueprint": false,
+                    "quantity": 1000
+                },
+                {
+                    "amount_in_stock": 15,
+                    "cost_per_item": 20,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -151838493,
+                    "item_is_blueprint": false,
+                    "quantity": 1000
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 69511070,
+                    "item_is_blueprint": false,
+                    "quantity": 250
+                },
+                {
+                    "amount_in_stock": 76,
+                    "cost_per_item": 500,
+                    "currency_id": -151838493,
+                    "currency_is_blueprint": false,
+                    "item_id": -2099697608,
+                    "item_is_blueprint": false,
+                    "quantity": 150
+                },
+                {
+                    "amount_in_stock": 30,
+                    "cost_per_item": 150,
+                    "currency_id": -2099697608,
+                    "currency_is_blueprint": false,
+                    "item_id": -151838493,
+                    "item_is_blueprint": false,
+                    "quantity": 500
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 10,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -946369541,
+                    "item_is_blueprint": false,
+                    "quantity": 20
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 300,
+                    "currency_id": -946369541,
+                    "currency_is_blueprint": false,
+                    "item_id": 1568388703,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 4996.84619140625,
+            "y": 4182.15234375
+        },
+        {
+            "name": "Components",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1994909036,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 125,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 479143914,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 60,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1021495308,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 95950017,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 15,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1882709339,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -858312878,
+                    "currency_is_blueprint": false,
+                    "item_id": 1414245522,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 4995.43701171875,
+            "y": 4180.7314453125
+        },
+        {
+            "name": "Weapons",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 150,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 352499047,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 250,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 528668503,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 400,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -2139580305,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 200,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 649912614,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 250,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -765183617,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 500,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1009359066,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -384243979,
+                    "item_is_blueprint": false,
+                    "quantity": 6
+                }
+            ],
+            "x": 4978.9716796875,
+            "y": 4205.3056640625
+        },
+        {
+            "name": "Output Outfitters",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 5,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 223891266,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 10,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 935692442,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 20,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -48090175,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 20,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1549739227,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1108136649,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 4959.49853515625,
+            "y": 4225.580078125
+        },
+        {
+            "name": "Building",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 125,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1293296287,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 350,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1992717673,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 300,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1588628467,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 125,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1849887541,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1371909803,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 2090395347,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -44876289,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 4998.56298828125,
+            "y": 4226.38818359375
+        },
+        {
+            "name": "Farming",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1488398114,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1581210395,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1863559151,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 15,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -781014061,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 443432036,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1166712463,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 30,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1142993169,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 2981.175537109375,
+            "y": 2480.519775390625
+        },
+        {
+            "name": "Produce Exchange",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 28,
+                    "cost_per_item": 15,
+                    "currency_id": 1367190888,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 10
+                },
+                {
+                    "amount_in_stock": 28,
+                    "cost_per_item": 80,
+                    "currency_id": -858312878,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 10
+                },
+                {
+                    "amount_in_stock": 56,
+                    "cost_per_item": 1,
+                    "currency_id": -1878764039,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 5
+                },
+                {
+                    "amount_in_stock": 93,
+                    "cost_per_item": 2,
+                    "currency_id": -930193596,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 3
+                }
+            ],
+            "x": 3021.57958984375,
+            "y": 2442.146240234375
+        },
+        {
+            "name": "Vehicle Parts",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1883981801,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 65,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1158340331,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 926800282,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -493159321,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 65,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 656371027,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 150,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1696050067,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 2948.782470703125,
+            "y": 2490.89306640625
+        },
+        {
+            "name": "Black Market",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 500,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1812555177,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 250,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -852563019,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 250,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -41440462,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 8,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 143803535,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 250,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1518883088,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 400,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 28201841,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 300,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 174866732,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 3006.147705078125,
+            "y": 2432.431640625
+        },
+        {
+            "name": "Scrap 4 Sale",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 1400,
+                    "cost_per_item": 6,
+                    "currency_id": -321733511,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 1400,
+                    "cost_per_item": 20,
+                    "currency_id": 69511070,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 700,
+                    "cost_per_item": 1,
+                    "currency_id": 317398316,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 2
+                },
+                {
+                    "amount_in_stock": 1400,
+                    "cost_per_item": 1,
+                    "currency_id": -1432674913,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 93,
+                    "cost_per_item": 1,
+                    "currency_id": 37122747,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 15
+                },
+                {
+                    "amount_in_stock": 35,
+                    "cost_per_item": 1,
+                    "currency_id": -484206264,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 40
+                },
+                {
+                    "amount_in_stock": 17,
+                    "cost_per_item": 1,
+                    "currency_id": -1880870149,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 80
+                }
+            ],
+            "x": 2974.6298828125,
+            "y": 2422.85595703125
+        },
+        {
+            "name": "Building Supplies",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1519126340,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1950721418,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 5,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1478445584,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -110921842,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 40,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -699558439,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 500,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1819763926,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 2023888403,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 2958.642578125,
+            "y": 2420.92626953125
+        },
+        {
+            "name": "Food Market",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 10,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1941646328,
+                    "item_is_blueprint": false,
+                    "quantity": 5
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 1,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 286193827,
+                    "item_is_blueprint": false,
+                    "quantity": 6
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 5,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -119235651,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 10,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 998894949,
+                    "item_is_blueprint": false,
+                    "quantity": 20
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 15,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1055319033,
+                    "item_is_blueprint": false,
+                    "quantity": 6
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 175,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1259919256,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 2930.3134765625,
+            "y": 2423.697265625
+        },
+        {
+            "name": "Shop Keeper",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 15,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -113413047,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 35,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -2022172587,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 296519935,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 20,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1101924344,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1770475779,
+                    "item_is_blueprint": false,
+                    "quantity": 5
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 80,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1569882109,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 2851.597412109375,
+            "y": 5477.625
+        },
+        {
+            "name": "Fish Exchange",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 121,
+                    "cost_per_item": 5,
+                    "currency_id": -1878764039,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 30
+                },
+                {
+                    "amount_in_stock": 73,
+                    "cost_per_item": 5,
+                    "currency_id": 680234026,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 50
+                },
+                {
+                    "amount_in_stock": 40,
+                    "cost_per_item": 2,
+                    "currency_id": -1768880890,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 90
+                },
+                {
+                    "amount_in_stock": 66,
+                    "cost_per_item": 2,
+                    "currency_id": -851988960,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 55
+                },
+                {
+                    "amount_in_stock": 48,
+                    "cost_per_item": 2,
+                    "currency_id": -1904821376,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 75
+                },
+                {
+                    "amount_in_stock": 56,
+                    "cost_per_item": 2,
+                    "currency_id": -587989372,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 65
+                }
+            ],
+            "x": 2853.27392578125,
+            "y": 5475.1103515625
+        },
+        {
+            "name": "Boat Vendor",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 204,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 190184021,
+                    "item_is_blueprint": true,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 211,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1491189398,
+                    "item_is_blueprint": true,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1671551935,
+                    "item_is_blueprint": false,
+                    "quantity": 2
+                }
+            ],
+            "x": 2852.6201171875,
+            "y": 5496.6865234375
+        },
+        {
+            "name": "Shop Keeper",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 15,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -113413047,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 35,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -2022172587,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 296519935,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 20,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1101924344,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1770475779,
+                    "item_is_blueprint": false,
+                    "quantity": 5
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 80,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1569882109,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 848.947998046875,
+            "y": 5161.50439453125
+        },
+        {
+            "name": "Fish Exchange",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 121,
+                    "cost_per_item": 5,
+                    "currency_id": -1878764039,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 30
+                },
+                {
+                    "amount_in_stock": 73,
+                    "cost_per_item": 5,
+                    "currency_id": 680234026,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 50
+                },
+                {
+                    "amount_in_stock": 40,
+                    "cost_per_item": 2,
+                    "currency_id": -1768880890,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 90
+                },
+                {
+                    "amount_in_stock": 66,
+                    "cost_per_item": 2,
+                    "currency_id": -851988960,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 55
+                },
+                {
+                    "amount_in_stock": 48,
+                    "cost_per_item": 2,
+                    "currency_id": -1904821376,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 75
+                },
+                {
+                    "amount_in_stock": 56,
+                    "cost_per_item": 2,
+                    "currency_id": -587989372,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 65
+                }
+            ],
+            "x": 833.361328125,
+            "y": 5134.27587890625
+        },
+        {
+            "name": "Boat Vendor",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 203,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 190184021,
+                    "item_is_blueprint": true,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 211,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1491189398,
+                    "item_is_blueprint": true,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1671551935,
+                    "item_is_blueprint": false,
+                    "quantity": 2
+                }
+            ],
+            "x": 840.223388671875,
+            "y": 5144.150390625
+        },
+        {
+            "name": "Shop Keeper",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 15,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -113413047,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 35,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -2022172587,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 296519935,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 20,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1101924344,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1770475779,
+                    "item_is_blueprint": false,
+                    "quantity": 5
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 80,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1569882109,
+                    "item_is_blueprint": false,
+                    "quantity": 1
+                }
+            ],
+            "x": 5541.5283203125,
+            "y": 3345.932861328125
+        },
+        {
+            "name": "Fish Exchange",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 121,
+                    "cost_per_item": 5,
+                    "currency_id": -1878764039,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 30
+                },
+                {
+                    "amount_in_stock": 73,
+                    "cost_per_item": 5,
+                    "currency_id": 680234026,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 50
+                },
+                {
+                    "amount_in_stock": 40,
+                    "cost_per_item": 2,
+                    "currency_id": -1768880890,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 90
+                },
+                {
+                    "amount_in_stock": 66,
+                    "cost_per_item": 2,
+                    "currency_id": -851988960,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 55
+                },
+                {
+                    "amount_in_stock": 48,
+                    "cost_per_item": 2,
+                    "currency_id": -1904821376,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 75
+                },
+                {
+                    "amount_in_stock": 56,
+                    "cost_per_item": 2,
+                    "currency_id": -587989372,
+                    "currency_is_blueprint": false,
+                    "item_id": -932201673,
+                    "item_is_blueprint": false,
+                    "quantity": 65
+                }
+            ],
+            "x": 5549.15087890625,
+            "y": 3361.22119140625
+        },
+        {
+            "name": "Boat Vendor",
+            "sell_orders": [
+                {
+                    "amount_in_stock": 204,
+                    "cost_per_item": 50,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 190184021,
+                    "item_is_blueprint": true,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 211,
+                    "cost_per_item": 25,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": 1491189398,
+                    "item_is_blueprint": true,
+                    "quantity": 1
+                },
+                {
+                    "amount_in_stock": 10,
+                    "cost_per_item": 75,
+                    "currency_id": -932201673,
+                    "currency_is_blueprint": false,
+                    "item_id": -1671551935,
+                    "item_is_blueprint": false,
+                    "quantity": 2
+                }
+            ],
+            "x": 5556.34130859375,
+            "y": 3350.654052734375
+        }
+    ]
+}

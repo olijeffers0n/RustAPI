@@ -13,7 +13,7 @@ class GetInfoHandler(RequestHandler):
         info.name = "RustAPI Testing Server"
         info.headerImage = "http://test.com/"
         info.url = "http://test.com/"
-        info.map = "4000 Size Procedural Map"
+        info.map = "6000 Size Procedural Map"
         info.mapSize = 6000
         info.wipeTime = int(time.time() - 60*60*24*5)
         info.players = random.randint(0, 200)
