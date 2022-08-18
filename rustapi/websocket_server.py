@@ -4,7 +4,7 @@ import traceback
 from websocket_server import WebsocketServer
 from .rustplus_proto import AppMessage, AppRequest, AppResponse, AppError
 from .handlers import RequestHandler, GetInfoHandler, GetTimeHandler, GetMapHandler, SendMessageHandler, \
-    GetTeamChatHandler, GetTeamInfoHandler
+    GetTeamChatHandler, GetTeamInfoHandler, PromoteLeaderHandler
 from .events import EventBroadcaster, RustEventLoop
 from .data import TeamManager
 
@@ -23,7 +23,15 @@ class RustAPIWebsocketServer:
             "getEntityInfo": None,
             "setEntityValue": None,
             "getMapMarkers": None,
-            "promoteToLeader": None
+            "promoteToLeader": PromoteLeaderHandler()
+        }
+        self.accounts = {
+            76561198181997262: 918549426,
+            76561198181897262: -791092032,
+            76561198181928262: 239420064,
+            76561198181939243: -718287530,
+            76561198181848239: 818265747,
+            76561198182527233: 462575120,
         }
 
     def convert_message_to_handler(self, message: AppRequest) -> RequestHandler:
@@ -39,12 +47,17 @@ class RustAPIWebsocketServer:
         try:
             request = AppRequest()
             request.ParseFromString(message)
+
+            if not self.is_authenticated(request):
+                raise Exception("Invalid Credentials")
+
             handler = self.convert_message_to_handler(request)
             response = handler.handle(request)
 
         except Exception as e:
-            print("An Error has occurred: ")
-            print(traceback.format_exc())
+            if not str(e) == "Invalid Credentials":
+                print("An Error has occurred: ")
+                print(traceback.format_exc())
             response = AppResponse()
             error = AppError()
             error.error = str(e)
@@ -54,6 +67,12 @@ class RustAPIWebsocketServer:
         message = AppMessage()
         message.response.CopyFrom(response)
         server.send_message(client, base64.b64encode(message.SerializeToString()))
+
+    def is_authenticated(self, app_request: AppRequest) -> bool:
+        if app_request.playerId not in self.accounts:
+            return False
+
+        return self.accounts[app_request.playerId] == app_request.playerToken
 
     def start(self):
         self.server = WebsocketServer(port=4565, loglevel=logging.INFO)

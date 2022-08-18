@@ -40,3 +40,15 @@ class TeamManager:
         team_info.members.extend(members)
 
         return team_info
+
+    @staticmethod
+    def set_leader(current, target) -> bool:
+
+        if current != TeamManager._leader_id:
+            return False
+
+        if target not in [member["id"] for member in TeamManager._members]:
+            return False
+
+        TeamManager._leader_id = target
+        return True
