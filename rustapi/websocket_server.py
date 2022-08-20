@@ -76,9 +76,10 @@ class RustAPIWebsocketServer:
         return self.accounts[app_request.playerId] == app_request.playerToken
 
     def start(self):
-        self.server = WebsocketServer(port=4565, loglevel=logging.INFO)
+        self.server = WebsocketServer(port=4565, loglevel=logging.WARNING)
         self.server.set_fn_message_received(self.on_message_received)
         EventBroadcaster.set_instance(self.server)
         RustEventLoop().start()
         TeamManager.init()
+        print("Running...")
         self.server.run_forever()
