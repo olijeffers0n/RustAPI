@@ -4,7 +4,8 @@ import traceback
 from websocket_server import WebsocketServer
 from .rustplus_proto import AppMessage, AppRequest, AppResponse, AppError
 from .handlers import RequestHandler, GetInfoHandler, GetTimeHandler, GetMapHandler, SendMessageHandler, \
-    GetTeamChatHandler, GetTeamInfoHandler, PromoteLeaderHandler, GetMapMarkersHandler
+    GetTeamChatHandler, GetTeamInfoHandler, PromoteLeaderHandler, GetMapMarkersHandler, GetEntityInfoHandler, \
+    SetEntityValueHandler
 from .events import EventBroadcaster, RustEventLoop
 from .data import TeamManager
 
@@ -20,8 +21,8 @@ class RustAPIWebsocketServer:
             "getTeamInfo": GetTeamInfoHandler(),
             "getTeamChat": GetTeamChatHandler(),
             "sendTeamMessage": SendMessageHandler(),
-            "getEntityInfo": None,
-            "setEntityValue": None,
+            "getEntityInfo": GetEntityInfoHandler(),
+            "setEntityValue": SetEntityValueHandler(),
             "getMapMarkers": GetMapMarkersHandler(),
             "promoteToLeader": PromoteLeaderHandler()
         }
