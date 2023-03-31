@@ -5,7 +5,6 @@ from .handler import RequestHandler
 
 
 class GetMapHandler(RequestHandler):
-
     def __init__(self):
         with open("./rustapi/data/map.png", "rb") as image:
             f = image.read()

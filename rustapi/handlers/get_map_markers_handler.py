@@ -5,7 +5,6 @@ import json
 
 
 class GetMapMarkersHandler(RequestHandler):
-
     def __init__(self):
         with open("./rustapi/data/markers.json", "r") as f:
             data = json.load(f)
@@ -26,18 +25,23 @@ class GetMapMarkersHandler(RequestHandler):
             marker.x = vending_machine_data["x"]
             marker.y = vending_machine_data["y"]
             marker.name = vending_machine_data["name"]
-            marker.outOfStock = False if len(vending_machine_data["sell_orders"]) == 0 else True
-            marker.sellOrders.extend([
-                AppMarker.SellOrder(
-                    itemId=order["item_id"],
-                    quantity=order["quantity"],
-                    currencyId=order["currency_id"],
-                    costPerItem=order["cost_per_item"],
-                    amountInStock=order["amount_in_stock"],
-                    itemIsBlueprint=order["item_is_blueprint"],
-                    currencyIsBlueprint=order["currency_is_blueprint"],
-                ) for order in vending_machine_data["sell_orders"]
-            ])
+            marker.outOfStock = (
+                False if len(vending_machine_data["sell_orders"]) == 0 else True
+            )
+            marker.sellOrders.extend(
+                [
+                    AppMarker.SellOrder(
+                        itemId=order["item_id"],
+                        quantity=order["quantity"],
+                        currencyId=order["currency_id"],
+                        costPerItem=order["cost_per_item"],
+                        amountInStock=order["amount_in_stock"],
+                        itemIsBlueprint=order["item_is_blueprint"],
+                        currencyIsBlueprint=order["currency_is_blueprint"],
+                    )
+                    for order in vending_machine_data["sell_orders"]
+                ]
+            )
             self.vending_machines.append(marker)
 
     def handle(self, app_request: AppRequest) -> AppResponse:
@@ -63,8 +67,3 @@ class GetMapMarkersHandler(RequestHandler):
         markers.markers.extend(marker_list)
         response.mapMarkers.CopyFrom(markers)
         return response
-
-
-
-
-

@@ -3,15 +3,24 @@ import base64
 import traceback
 from websocket_server import WebsocketServer
 from .rustplus_proto import AppMessage, AppRequest, AppResponse, AppError
-from .handlers import RequestHandler, GetInfoHandler, GetTimeHandler, GetMapHandler, SendMessageHandler, \
-    GetTeamChatHandler, GetTeamInfoHandler, PromoteLeaderHandler, GetMapMarkersHandler, GetEntityInfoHandler, \
-    SetEntityValueHandler
+from .handlers import (
+    RequestHandler,
+    GetInfoHandler,
+    GetTimeHandler,
+    GetMapHandler,
+    SendMessageHandler,
+    GetTeamChatHandler,
+    GetTeamInfoHandler,
+    PromoteLeaderHandler,
+    GetMapMarkersHandler,
+    GetEntityInfoHandler,
+    SetEntityValueHandler,
+)
 from .events import EventBroadcaster, RustEventLoop
 from .data import TeamManager
 
 
 class RustAPIWebsocketServer:
-
     def __init__(self):
         self.server = None
         self.fields = {
@@ -24,7 +33,7 @@ class RustAPIWebsocketServer:
             "getEntityInfo": GetEntityInfoHandler(),
             "setEntityValue": SetEntityValueHandler(),
             "getMapMarkers": GetMapMarkersHandler(),
-            "promoteToLeader": PromoteLeaderHandler()
+            "promoteToLeader": PromoteLeaderHandler(),
         }
         self.accounts = {
             76561198181997262: 918549426,

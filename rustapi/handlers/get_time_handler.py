@@ -5,7 +5,6 @@ from .handler import RequestHandler
 
 
 class GetTimeHandler(RequestHandler):
-
     def handle(self, app_request: AppRequest) -> AppResponse:
         response = AppResponse()
         time = AppTime()

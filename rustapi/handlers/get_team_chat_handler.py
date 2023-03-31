@@ -4,7 +4,6 @@ from ..data import MessageManager
 
 
 class GetTeamChatHandler(RequestHandler):
-
     def handle(self, app_request: AppRequest) -> AppResponse:
         response = AppResponse()
         chat = AppTeamChat()

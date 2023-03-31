@@ -1,5 +1,4 @@
 class LimitedList:
-
     def __init__(self, size: int) -> None:
         self.data = []
         self.size = size
