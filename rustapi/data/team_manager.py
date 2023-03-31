@@ -56,8 +56,8 @@ class TeamManager:
             if member.isOnline:
                 member = TeamManager._offset_coords(member)
 
-            if member.spawnTime > time.time() - 60 * 60 * 10:
-                member.spawnTime = int(time.time() - random.randint(0, 60 * 60))
+            if member.spawnTime + 10 * 60 * 60 < time.time():
+                member.spawnTime = int(time.time() - random.randint(0, 3 * 60 * 60))
 
             members.append(member)
 
