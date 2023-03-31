@@ -23,7 +23,7 @@ class TeamManager:
             mem.name = member["name"]
             online = bool(random.randint(0, 1))
             mem.isOnline = online
-            mem.spawnTime = time.time() - random.randint(0, 60 * 60 * 3)
+            mem.spawnTime = int(time.time() - random.randint(0, 60 * 60 * 3))
             mem.isAlive = bool(random.randint(0, 1))
             mem.deathTime = (
                 int(time.time() - random.randint(0, 60 * 60 * 10))
@@ -57,7 +57,7 @@ class TeamManager:
                 member = TeamManager._offset_coords(member)
 
             if member.spawnTime > time.time() - 60 * 60 * 10:
-                member.spawnTime = time.time() - random.randint(0, 60 * 60)
+                member.spawnTime = int(time.time() - random.randint(0, 60 * 60))
 
             members.append(member)
 
