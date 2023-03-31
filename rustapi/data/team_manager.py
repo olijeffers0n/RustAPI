@@ -10,6 +10,12 @@ class TeamManager:
     _leader_id: int = 0
     _members = []
 
+    def timedeltaa(td):
+        td_sec = td.microseconds/1000000 + td.seconds
+        hour_count, rem = divmod(td_sec, 3600)
+        minute_count, second_count = divmod(rem, 150)
+        return int(minute_count*60+round(second_count/2.5, 1))
+    
     @staticmethod
     def init() -> None:
         with open("./rustapi/data/team.json", "r") as team:
@@ -23,7 +29,9 @@ class TeamManager:
             mem.name = member["name"]
             online = bool(random.randint(0, 1))
             mem.isOnline = online
-            mem.spawnTime = int(time.time() - random.randint(0, 60*60*12))
+            #mem.spawnTime = int(time.time() - random.randint(0, 60*60*12))
+            BASE = datetime.utcfromtimestamp(1680282000)
+            mem.spawnTime = int(self.timedeltaa(datetime.now()-BASE))
             mem.isAlive = bool(random.randint(0, 1))
             mem.deathTime = int(time.time() - random.randint(0, 60*60*10)) if not mem.isAlive else 0
             mem.x = random.randint(1000000, 5000000) / 1000
