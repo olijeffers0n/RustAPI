@@ -5,7 +5,6 @@ from .event_broadcaster import EventBroadcaster
 
 
 class RustEventLoop:
-
     def __init__(self):
         self.thread = None
 

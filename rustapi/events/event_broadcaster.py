@@ -26,4 +26,6 @@ class EventBroadcaster:
         app_message = AppMessage()
         app_message.broadcast.CopyFrom(broadcast)
 
-        EventBroadcaster._instance.send_message_to_all(base64.b64encode(app_message.SerializeToString()))
+        EventBroadcaster._instance.send_message_to_all(
+            base64.b64encode(app_message.SerializeToString())
+        )

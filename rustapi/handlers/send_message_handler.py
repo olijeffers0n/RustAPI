@@ -8,12 +8,17 @@ from ..data import MessageManager
 
 
 class SendMessageHandler(RequestHandler):
-
     def handle(self, app_request: AppRequest) -> AppResponse:
 
-        username = ElementTree.fromstring(
-            requests.get(f"https://steamcommunity.com/profiles/{app_request.playerId}?xml=1").content)\
-            .find("steamID").text
+        username = (
+            ElementTree.fromstring(
+                requests.get(
+                    f"https://steamcommunity.com/profiles/{app_request.playerId}?xml=1"
+                ).content
+            )
+            .find("steamID")
+            .text
+        )
 
         app_message = AppChatMessage()
         app_message.steamId = app_request.playerId
